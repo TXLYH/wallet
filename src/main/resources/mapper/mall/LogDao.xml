@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.lyh.mall.mall.dao.LogDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.lyh.mall.mall.entity.LogEntity" id="logMap">
+        <result property="logId" column="log_id"/>
+        <result property="userId" column="user_id"/>
+        <result property="pay" column="pay"/>
+        <result property="creatTime" column="creat_time"/>
+        <result property="money" column="money"/>
+    </resultMap>
+
+
+</mapper>
